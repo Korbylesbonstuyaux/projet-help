@@ -26,8 +26,6 @@ hr {
   padding-bottom: 45px !important;
 }
 
-
-
 /*MENU*/
 
 .navbar {
@@ -84,11 +82,9 @@ nav a {
 #myCarousel {
   height: 600px;
 }
-
 .carousel-inner {
   height: 600px;
 }
-
 
 /*LE PRINCIPE (FONCTIONNEMENT)*/
 
@@ -167,59 +163,63 @@ nav a {
 .android, .apple, .windows {
   text-align: center;
 }
-
-#download .fa-circle{
+#download .fa-circle {
   color: white;
-  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 }
-
-#download .fa-windows, #download .fa-android, #download .fa-apple{
- color: #e83434;
+#download .fa-windows, #download .fa-android, #download .fa-apple {
+  color: #e83434;
 }
-#download a:hover{
- font-size: 90%;
- /*text-shadow: 0 10px 20px #9a9a9a;*/
+#download a:hover {
+  font-size: 90%;
+  /*text-shadow: 0 10px 20px #9a9a9a;*/
 }
-#download h2{
+#download h2 {
   padding-top: 25px;
-padding-bottom: 25px;
+  padding-bottom: 25px;
 }
-
-#download h3{
+#download h3 {
   text-shadow: 0 1px 2px #deded8;
 }
-.mailchip{
+#download h5 {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55px;
+}
+.mailchip {
   width: 100%;
-  padding-top: 25px;
+  padding-top: 2px;
   text-align: center;
 }
+
 /*footer*/
 
-#foot .fa-circle{
+#foot .fa-circle {
   color: white;
-  text-shadow: 1 10px 2px rgba(0,0,0,.6);
+  text-shadow: 1 10px 2px rgba(0, 0, 0, .6);
   border: 1px outset #337AB7;
   border-radius: 15px;
 }
-#foot li{
+#foot li {
   font-size: 8px;
   font-weight: lighter;
-    display: inline;
+  display: inline;
 }
+
 /*#foot .fa-stack{
       margin-right: 80px;
 }*/
-#foot ul{
+
+#foot ul {
   list-style-type: none;
   padding: 0;
 }
-
-#foot h5{
+#foot h5 {
   text-align: center;
   padding-top: 10px;
-
 }
-.social{
+.social {
   width: 10%;
   display: flex;
   justify-content: space-between;
@@ -227,9 +227,8 @@ padding-bottom: 25px;
   margin-left: auto;
   padding-bottom: 30px;
 }
-#foot hr{
-  color:  #6ca0ee !important;
-
+#foot hr {
+  color: #6ca0ee !important;
 }
 
 /*.help-team{
