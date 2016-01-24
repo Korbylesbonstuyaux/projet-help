@@ -63,6 +63,12 @@ nav a {
   color: #e83434 important;
   margin-right: 10px !important;
 }
+
+.navbar ul li, .navbar ul li a, .navbar ul li a span, .navbar ul li a span i {
+  height: 56px;
+  line-height: 28px;
+}
+
 .fa-navicon {
   font-size: 30px !important;
   color: #E83434;
@@ -77,14 +83,18 @@ nav a {
   background-color: #e83434;
 }
 
+#myNavbar {
+  margin: 0;
+}
+
 /*CAROUSEL */
 
-#myCarousel {
+/*#myCarousel {
   height: 600px;
 }
 .carousel-inner {
   height: 600px;
-}
+}*/
 
 /*LE PRINCIPE (FONCTIONNEMENT)*/
 
@@ -122,11 +132,20 @@ nav a {
 .italic-bold {
   color: #e83434;
 }
+
 #function p {
   margin-top: 15px;
   margin-bottom: 35px;
 }
+
+@media (max-width: 991px) {
+  #function p {
+    text-align: center;
+  }
+}
+
 #function h3 {
+  text-align: center;
   color: #e83434;
 }
 
@@ -135,12 +154,29 @@ nav a {
 #community {
   background-color: white;
 }
+
+#community .row div {
+  margin-top: 25px;
+}
+
 #community h2, #community hr {
   color: #6ca0ee;
+  text-transform: uppercase;
 }
+
+#community img {
+  margin: auto;
+  border: 3px solid #6ca0ee;
+}
+
+#community h4 {
+  color: #e83434;
+}
+
 #community p {
   font-weight: bold;
   font-style: italic;
+  color: #6ca0ee;
 }
 
 /*telechargements*/
@@ -151,18 +187,11 @@ nav a {
 #download .red {
   color: white;
 }
+
 .julie-img {
   border-radius: 100%;
 }
-.app-os {
-  width: 100%;
-  display: inline-flex;
-  /*flex: auto;*/
-  justify-content: space-around;
-}
-.android, .apple, .windows {
-  text-align: center;
-}
+
 #download .fa-circle {
   color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
@@ -175,69 +204,80 @@ nav a {
   /*text-shadow: 0 10px 20px #9a9a9a;*/
 }
 #download h2 {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
 }
+
 #download h3 {
   text-shadow: 0 1px 2px #deded8;
 }
 #download h5 {
-  width: 20%;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 55px;
+  font-size: 2em;
+  color: white;
 }
+
 .mailchip {
   width: 100%;
   padding-top: 2px;
   text-align: center;
 }
 
+.mailchip input {
+  height: 40px;
+  width: 40%;
+  color: #6ca0ee;
+  border: 1px solid #6ca0ee;
+  border-radius: 5px;
+}
+
+.mailchip button {
+  height: 40px;
+  width: 20%;
+  color: white;
+  background-color: #6ca0ee;
+  border: 1px solid #6ca0ee;
+  border-radius: 5px;
+}
+
+#download a:hover {
+  font-size: 1em;
+}
+#ios, #android, #windows {
+  text-align: center;
+  color: white;
+  height: 180px;
+}
+
+#ios span, #android span, #windows span {
+  color: white;
+}
+
 /*footer*/
+#foot {
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  color: #6ca0ee;
+}
+
+#team, #social, #about {
+  padding-top: 50px;
+}
+
+#team, #about {
+  line-height: normal;
+}
+
+#team span, #about span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 #foot .fa-circle {
   color: white;
-  text-shadow: 1 10px 2px rgba(0, 0, 0, .6);
-  border: 1px outset #337AB7;
-  border-radius: 15px;
 }
-#foot li {
-  font-size: 8px;
-  font-weight: lighter;
-  display: inline;
-}
-
-/*#foot .fa-stack{
-      margin-right: 80px;
-}*/
-
-#foot ul {
-  list-style-type: none;
-  padding: 0;
-}
-#foot h5 {
-  text-align: center;
-  padding-top: 10px;
-}
-.social {
-  width: 10%;
-  display: flex;
-  justify-content: space-between;
-  margin-right: auto;
-  margin-left: auto;
-  padding-bottom: 30px;
-}
-#foot hr {
-  color: #6ca0ee !important;
-}
-
-/*.help-team{
-  width: 100%;
-  display: inline-flex;
-
-}
-.team-group{
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}*/
